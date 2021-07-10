@@ -11,6 +11,7 @@ const Shop = () => {
   const [items, setItems] = useState([])
 
   const fetchItems = async () => {
+    // https://fakestoreapi.com/docs#p-all
     const data = await fetch('https://fakestoreapi.com/products?limit=50')
     
     const items = await data.json()
