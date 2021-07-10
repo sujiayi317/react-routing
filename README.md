@@ -1,4 +1,8 @@
 # Practice routing - first example
+- React Router allows us to create client side routing in our react project.
+
+- It allows us to create dynamic routes and fetch api calls based on route parameters.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
