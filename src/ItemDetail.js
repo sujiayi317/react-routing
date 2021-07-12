@@ -22,8 +22,8 @@ const ItemDetail = ({ match }) => {
 
   return (
     <div>
-      <h1>{item.title}</h1>
-      <img src={item.image} alt="" />
+      <h3>{item.title}</h3>
+      <img src={item.image} alt="" width="50%"/>
     </div>
   );
 }
